@@ -12,7 +12,7 @@ var ad = '';
 var iosPrefix = 'itms-services://?action=download-manifest&url=';
 // var hostUrl = "http://api.bcos.one";
 var hostUrl = "http://luckyparty.minervip.io"
-downFun()
+// downFun()
 
 
 function downFun() {
