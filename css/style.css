@@ -137,13 +137,14 @@ a:hover,a:active,a:focus{
     min-height: 5px;
 }
 .slide-left img{
-    width: 100%;
+    width: 87%;
 }
 .slide-right img{
-    width: 100%;
+    width: 87%;
 }
 .first-slide-left img{
-    width: 115%;
+    /* width: 115%; */
+    width: 100%;
     margin-left: -16%;
 }
 .first-slide-right{
@@ -190,12 +191,12 @@ a:hover,a:active,a:focus{
 .erweima{
     position: absolute;
     /* width: 65%; */
-    height: 124px;
+    /* height: 124px; */
     bottom: 62px;
-    border: 2px solid #343434;
-    margin-left: 40px;
+    /* border: 2px solid #343434; */
+    margin-left: 10px;
     /* top: 65px; */
-    /* background-color: #2E72D6; */
+    background-color: #fff;
     display: none;
 }
 .erweima canvas{

@@ -1,9 +1,9 @@
-var LANGUAGE_Index = "en"; //标识语言  en英文 zh中文 
+var LANGUAGE_Index = "zh"; //标识语言  en英文 zh中文 
 var language = GetQueryString("language")
-if ((language != null && language == '1') || language == 'zh') {
-    LANGUAGE_Index = "zh"
-} else {
+if ((language != null && language == '1') || language == 'en') {
     LANGUAGE_Index = "en"
+} else {
+    LANGUAGE_Index = "zh"
 }
 
 // loadProperties(LANGUAGE_Index); //加载语言
@@ -23,7 +23,7 @@ function updetiImageSrc(obj) {
 function loadProperties(type) {
     jQuery.i18n.properties({
         name: 'strings', // 资源文件名称  
-        path: '/languages/', // 资源文件所在目录路径  
+      	path: 'https://winchain2018.github.io/luckyParty/languages/', // 资源文件所在目录路径  
         mode: 'map', // 模式：变量或 Map  
         language: type, // 对应的语言  
         cache: false,
